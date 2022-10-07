@@ -17,7 +17,7 @@ Jorge es un geólogo del IGME (Instituto Geológico y Minero de España) que est
 
 ### Resultados y análisis
 
-El reto pedía una métrica f1-macro como evaluación de los resultados. Tras aplicar distintos modelos, se ha obtenido los distintos resultados: 
+El reto pedía una métrica f1-macro como evaluación de los resultados. Tras aplicar distintos modelos, se ha obtenido los siguientes resultados: 
 
 |MODELO|F1-MACRO|  
 |------|-------|  
