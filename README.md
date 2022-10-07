@@ -32,7 +32,7 @@ Tras un primer análisis de los datos, se ha visto que algunas de las clases ten
 ha decidido aplicar algunas técnicas que mitiguen esta diferencia y comprobar si realmente es reelevante o no.  
 
 En primer lugar, se ha realizado Random Forest sobre los datos originales y sobre los datos originales eliminando los outliers. Para realizar esto se ha
-creado una función que permite ejecutar este modelo enviando distinto parámetros cada vez así, es posible escoger el mejor de ellos en función de la métrica
+creado una función que permite ejecutar este modelo enviando distintos parámetros cada vez, así es posible escoger el mejor de ellos en función de la métrica
 f1-macro. La función devuelve un dataframe con el modelo que mejor puntuación ha conseguido. 
 
 ```def crear_modelos(x_train, y_train, x_test, y_test, algoritmo):
@@ -82,7 +82,7 @@ por un lado y, por el otro, aplicar a los datos la técnica de [SMOTE](https://i
 la cual, permite realizar un over-sample en los datos.  
 
 Una vez obtenidas las métricas de estos 3 modelos, se ha escogido el que aportaba un f1 más alto y se ha realizado la predicción con los 
-datos de test aportados para este proyecto.  
+datos de test aportados.  
 
 Finalmente, se ha generado el fichero csv "erupciones_volcanicas", que contiene las predicciones realizadas por el modelo sobre los datos de test.
 
